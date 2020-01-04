@@ -7,7 +7,7 @@
 
 
 
-filenames = ['index']
+filenames = ['index', 'solarSystem']
 templatefilename = 'footer'
 templatefilenameblue = 'footer-blue'
 print('...')
@@ -52,7 +52,7 @@ for filename in filenames:
 				p3 = False
 				p4 = True
 		if p2:
-			if filename != 'projects':
+			if filename != 'solarSystem':
 				file.write(templatetext)
 			else:
 				file.write(templatetextblue)

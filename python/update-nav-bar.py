@@ -7,7 +7,7 @@
 
 
 
-filenames = ['index']
+filenames = ['index', 'solarSystem']
 templatefilename = 'main-nav-bar'
 print('...')
 print('...Template File as {0}.html'.format(templatefilename))
