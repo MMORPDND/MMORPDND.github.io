@@ -7,15 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e4deeb4-32df-413a-8521-a14afe669b77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Matella/WCIII/dessaquest.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matella/characters/Dessa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matella/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matella/resources/list of names" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matella/resources/shop names" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matella/rivers/queyRiver.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matella/towns/dessaquest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matella/characters/Loredmeyer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matella/items/fangOfAzshira.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matella/items/fangOfAzshira.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matella/items/fangOfElaine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matella/items/fangOfEssieldore.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matella/items/fangOfEssieldore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matella/items/fangOfPellinore-orig.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matella/items/fangOfPellinore.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matella/players/Zinnia Zenchua.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matella/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/characters/Dessa.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/characters/Dessa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/resources/list of names" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/resources/list of names" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/resources/shop names" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/resources/shop names" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/rivers/queyRiver.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/rivers/queyRiver.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +84,9 @@
       <workItem from="1611888907595" duration="10000" />
       <workItem from="1612228180664" duration="59000" />
       <workItem from="1612324143781" duration="4792000" />
+      <workItem from="1612396521811" duration="1254000" />
+      <workItem from="1612399090510" duration="402000" />
+      <workItem from="1612403721266" duration="11036000" />
     </task>
     <servers />
   </component>
