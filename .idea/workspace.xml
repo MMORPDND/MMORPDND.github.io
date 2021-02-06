@@ -6,11 +6,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e4deeb4-32df-413a-8521-a14afe669b77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matella/resources/list of names" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/resources/list of names" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matella/resources/plantsAndHerbs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/resources/plantsAndHerbs.html" afterDir="false" />
-    </list>
+    <list default="true" id="0e4deeb4-32df-413a-8521-a14afe669b77" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +71,7 @@
       <workItem from="1612396521811" duration="1254000" />
       <workItem from="1612399090510" duration="402000" />
       <workItem from="1612403721266" duration="11036000" />
-      <workItem from="1612567416043" duration="18995000" />
+      <workItem from="1612567416043" duration="19799000" />
     </task>
     <servers />
   </component>
