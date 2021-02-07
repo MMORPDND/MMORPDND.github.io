@@ -7,9 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e4deeb4-32df-413a-8521-a14afe669b77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Matella/rivers/images/kennethZudTabletForEggt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matella/players/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matella/players/players.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matella/rivers/QueyRiver.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/rivers/QueyRiver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/items/eggOfEquestador.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/items/eggOfEquestador.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/items/fangOfAzshira.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/items/fangOfAzshira.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/items/fangOfEssieldore.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/items/fangOfEssieldore.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/resources/list of places" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/resources/list of places" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/towns/Dessaquest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/towns/Dessaquest.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +93,7 @@
       <workItem from="1612567416043" duration="20211000" />
       <workItem from="1612656293672" duration="1978000" />
       <workItem from="1612658303484" duration="70000" />
-      <workItem from="1612724349030" duration="5082000" />
+      <workItem from="1612724349030" duration="7918000" />
     </task>
     <servers />
   </component>
