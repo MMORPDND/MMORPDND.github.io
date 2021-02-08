@@ -7,13 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e4deeb4-32df-413a-8521-a14afe669b77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Matella/WCIII/Dessaquest-top.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matella/rules.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matella/towns/Dessaquest_map.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matella/towns/Dessaquest_map.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matella/map elements/fk8ygqv9ewf61.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matella/players/players.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/players/players.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matella/resources/list of places" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/resources/list of places" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/characters/Loredmeyer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/characters/Loredmeyer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/items/fangOfAzshira.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/weapons/fangOfAzshira.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/items/fangOfElaine.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/weapons/fangOfElaine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/items/fangOfEssieldore.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/weapons/fangOfEssieldore.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/items/fangOfPellinore.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/weapons/fangOfPellinore.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/items/images/fangOfAzshira.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/weapons/images/fangOfAzshira.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/items/images/fangOfElaine.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/weapons/images/fangOfElaine.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/items/images/fangOfEssieldore.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/weapons/images/fangOfEssieldore.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/items/images/fangOfPellinore-orig.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/weapons/images/fangOfPellinore-orig.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/items/images/fangOfPellinore.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/weapons/images/fangOfPellinore.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/resources/plantsAndHerbs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/resources/plantsAndHerbs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/rivers/QueyRiver.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/rivers/QueyRiver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matella/rules.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matella/rules.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +67,7 @@
       <recent name="C:\cygwin64\home\d0sag3\MMORPDND.github.io\Matella\books" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\cygwin64\home\d0sag3\MMORPDND.github.io\Matella\weapons" />
       <recent name="C:\cygwin64\home\d0sag3\MMORPDND.github.io\Matella\towns\images" />
       <recent name="C:\cygwin64\home\d0sag3\MMORPDND.github.io\Matella\rivers\images" />
       <recent name="C:\cygwin64\home\d0sag3\MMORPDND.github.io\Matella\items\images" />
@@ -92,7 +101,7 @@
       <workItem from="1612567416043" duration="20211000" />
       <workItem from="1612656293672" duration="1978000" />
       <workItem from="1612658303484" duration="70000" />
-      <workItem from="1612724349030" duration="10813000" />
+      <workItem from="1612724349030" duration="13349000" />
     </task>
     <servers />
   </component>
