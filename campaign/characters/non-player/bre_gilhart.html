@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   bre gilhart
+  </title>
+  <link href="../../../css/mmorpdnd.css" rel="stylesheet"/>
+  <!-- JavaScript to handle navigation buttons -->
+  <script crossorigin="anonymous" src="https://kit.fontawesome.com/f3aa8d5630.js">
+  </script>
+  <script>
+   function goBack() {
+        window.history.back();
+      }
+
+      function goForward() {
+        window.history.forward();
+      }
+
+      function goToIndex() {
+        window.location.href = "./index.html";
+      }
+  </script>
+ </head>
+ <body>
+  <div class="navigation">
+   <a href="#" onclick="history.back(); return false;">
+    <i class="fas fa-arrow-left">
+    </i>
+    Back
+   </a>
+   <a href="./index.html">
+    <i class="fas fa-home">
+    </i>
+    Home
+   </a>
+   <a href="../index.html">
+    <i class="fas fa-level-up-alt">
+    </i>
+    Up
+   </a>
+   <a href="#" onclick="history.forward(); return false;">
+    <i class="fas fa-arrow-right">
+    </i>
+    Forward
+   </a>
+  </div>
+  <!-- Top section for character information -->
+  <div class="container">
+   <div>
+    <div class="character-info">
+     <h2>
+      Bre Gilhart
+     </h2>
+     <p>
+      <i>
+       medium human, neutral good
+      </i>
+     </p>
+     <p>
+      Level: 3
+     </p>
+     <p>
+      Race: human
+     </p>
+     <p>
+      Class: innkeeper, culinary expert
+     </p>
+     <p>
+      Background: tavern owner
+     </p>
+    </div>
+    <hr/>
+    <!-- Section for Misc Stats -->
+    <div class="dnd-list">
+     <h3>
+      Miscillaneous Stats
+     </h3>
+     <ul>
+      <li>
+       <strong>
+        Armor Class:
+       </strong>
+       14
+      </li>
+      <li>
+       <strong>
+        Hit Points:
+       </strong>
+       30
+      </li>
+      <li>
+       <strong>
+        Speed:
+       </strong>
+       30 ft.
+      </li>
+      <li>
+       <strong>
+        Resistances:
+       </strong>
+       none
+      </li>
+      <li>
+       <strong>
+        Immunities:
+       </strong>
+       none
+      </li>
+      <li>
+       <strong>
+        Senses:
+       </strong>
+       normal vision, Passive Perception: 11
+      </li>
+      <li>
+       <strong>
+        Languages:
+       </strong>
+       common
+      </li>
+     </ul>
+    </div>
+   </div>
+   <div class="character-info">
+    <a href="img/bre_gilhart.jpg">
+     <img alt="bre_gilhart-image" class="character-img" src="img/bre_gilhart.jpg"/>
+    </a>
+   </div>
+  </div>
+  <hr/>
+  <!-- Section for attributes -->
+  <div class="dnd-table">
+   <h3>
+    Attributes
+   </h3>
+   <table>
+    <tr>
+     <th class="title">
+      Ability
+     </th>
+     <th class="title">
+      Score
+     </th>
+     <th class="title">
+      Proficient
+     </th>
+     <th class="title">
+      Modifier
+     </th>
+    </tr>
+    <tr>
+     <td>
+      Strength
+     </td>
+     <td>
+      10
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +0
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Dexterity
+     </td>
+     <td>
+      14
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +2
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Constitution
+     </td>
+     <td>
+      12
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +1
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Intelligence
+     </td>
+     <td>
+      16
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +3
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Wisdom
+     </td>
+     <td>
+      13
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +1
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Charisma
+     </td>
+     <td>
+      18
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +4
+     </td>
+    </tr>
+   </table>
+  </div>
+  <hr/>
+  <!-- Section for skills and spells -->
+  <div class="dnd-table">
+   <h3>
+    Skills
+   </h3>
+   <table>
+    <thead>
+     <tr>
+      <th class="title">
+       Skill
+      </th>
+      <th class="title">
+       Proficient
+      </th>
+      <th class="title">
+       Modifier
+      </th>
+     </tr>
+    </thead>
+    <tbody>
+     <tr>
+      <td>
+       Acrobatics (Dex)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +2
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Animal Handling (Wis)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +1
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Arcana (Int)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +3
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Athletics (Str)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +0
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Deception (Cha)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +4
+      </td>
+     </tr>
+     <tr>
+      <td>
+       History (Int)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +3
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Insight (Wis)
+      </td>
+      <td class="proficient">
+       <i class="fas fa-check">
+       </i>
+      </td>
+      <td class="ability-modifier">
+       +3
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Intimidation (Cha)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +4
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Investigation (Int)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +3
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Medicine (Wis)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +1
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Nature (Int)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +3
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Perception (Wis)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +1
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Performance (Cha)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +4
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Persuasion (Cha)
+      </td>
+      <td class="proficient">
+       <i class="fas fa-check">
+       </i>
+      </td>
+      <td class="ability-modifier">
+       +6
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Religion (Int)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +3
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Sleight of Hand (Dex)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +2
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Stealth (Dex)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +2
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Survival (Wis)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +1
+      </td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <hr/>
+  <!-- Section for abilities -->
+  <div class="dnd-list">
+   <h3>
+    Abilities, Spells, and Actions
+   </h3>
+   <ul>
+    <li>
+     <strong>
+      culinary mastery, charming host:
+     </strong>
+     [culinary mastery, charming host description]
+    </li>
+   </ul>
+  </div>
+  <hr/>
+  <!-- Section for equipment -->
+  <div class="dnd-list">
+   <h3>
+    Equipment
+   </h3>
+   <ul>
+    <li>
+     <strong>
+      apron, rolling pin, wine glasses, recipe book:
+     </strong>
+     [apron, rolling pin, wine glasses, recipe book description]
+    </li>
+   </ul>
+  </div>
+  <hr/>
+  <!-- Section for background information and notes -->
+  <div class="dnd-info">
+   <h3>
+    Background Information
+   </h3>
+   <p class="first-paragraph">
+    Bre Gilhart, the spirited proprietor of the beloved tavern nestled amidst the picturesque streets of
+    <a href="../../locations/towns/Dessaquest/Dessaquest.html">
+     Dessaquest</a>, radiates conviviality and warmth. With a passion for culinary delights and an innate talent for hosting, Bre creates an enchanting haven where laughter, camaraderie, and the artistry of fine libations and gastronomy intertwine harmoniously. As the sun sets upon the horizon, casting its golden hues upon the town, Bre's tavern beckons weary travelers and locals alike to partake in its offerings. The air is filled with tantalizing aromas that waft from the kitchen, promising a gustatory journey through the lands. Bre's culinary mastery is evident in every dish served within the hallowed walls. Sourdough bread, freshly baked with love, tempts palates with its inviting aroma, offering a delectable canvas for the discerning taste buds. The tantalizing notes of Connery Spice Bread, infused with a harmonious blend of aromatic spices, weave a tapestry of flavors that transport one to distant realms with each heavenly bite. And for those craving the treasures of the sea, the Rockscale Cod, presented with utmost care and expertly prepared, promises a tantalizing journey through the depths of savory indulgence. Beyond the gastronomic delights, Bre's charismatic presence as a charming host enhances the tavern experience. With a warm smile and infectious enthusiasm, Bre ensures that every patron feels welcome and at home. The shelves of the tavern are adorned with an array of wines and ales, carefully selected from the surrounding region, each with a story to tell. Bre's knowledge and passion for libations make every recommendation a delightful adventure.
+   </p>
+  </div>
+  <hr/>
+  <div class="dnd-info">
+   <h3>
+    Notes
+   </h3>
+   <p class="first-paragraph">
+    N/A
+   </p>
+  </div>
+ </body>
+</html>

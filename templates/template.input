@@ -1,0 +1,6 @@
+folder=creatures
+dnd_information[dnd-info]=here,is,some,data
+dnd info with spaces[dnd-info]=Here is some more info.
+Attributes[dnd-table]=4;Strength;[strength];[strength proficiency];[strength modifier];Dexterity;[dexterity];[dexterity proficiency];[dexterity modifier];Constitution;[constitution];[constitution proficiency];[constitution modifier];Intelligence;[intelligence];[intelligence proficiency];[intelligence modifier];Wisdom;[wisdom];[wisdom proficiency];[wisdom modifier];Charisma;[charisma];[charisma proficiency];[charisma modifier]
+list_information[dnd-list]=even;much;lots;data;here
+Image Section[dnd-image]=img/foobar.jpg;"www.google.com";A random foobar image found on google - source unknown.

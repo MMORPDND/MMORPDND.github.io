@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   sendri meaz
+  </title>
+  <link href="../../../css/mmorpdnd.css" rel="stylesheet"/>
+  <!-- JavaScript to handle navigation buttons -->
+  <script crossorigin="anonymous" src="https://kit.fontawesome.com/f3aa8d5630.js">
+  </script>
+  <script>
+   function goBack() {
+        window.history.back();
+      }
+
+      function goForward() {
+        window.history.forward();
+      }
+
+      function goToIndex() {
+        window.location.href = "./index.html";
+      }
+  </script>
+ </head>
+ <body>
+  <div class="navigation">
+   <a href="#" onclick="history.back(); return false;">
+    <i class="fas fa-arrow-left">
+    </i>
+    Back
+   </a>
+   <a href="./index.html">
+    <i class="fas fa-home">
+    </i>
+    Home
+   </a>
+   <a href="../index.html">
+    <i class="fas fa-level-up-alt">
+    </i>
+    Up
+   </a>
+   <a href="#" onclick="history.forward(); return false;">
+    <i class="fas fa-arrow-right">
+    </i>
+    Forward
+   </a>
+  </div>
+  <!-- Top section for character information -->
+  <div class="container">
+   <div>
+    <div class="character-info">
+     <h2>
+      Sendri Meaz
+     </h2>
+     <p>
+      <i>
+       medium humanoid, neutral good
+      </i>
+     </p>
+     <p>
+      Level: 5
+     </p>
+     <p>
+      Race: human
+     </p>
+     <p>
+      Class: alchemist
+     </p>
+     <p>
+      Background: herbalist
+     </p>
+    </div>
+    <hr/>
+    <!-- Section for Misc Stats -->
+    <div class="dnd-list">
+     <h3>
+      Miscillaneous Stats
+     </h3>
+     <ul>
+      <li>
+       <strong>
+        Armor Class:
+       </strong>
+       13
+      </li>
+      <li>
+       <strong>
+        Hit Points:
+       </strong>
+       45
+      </li>
+      <li>
+       <strong>
+        Speed:
+       </strong>
+       30 feet
+      </li>
+      <li>
+       <strong>
+        Resistances:
+       </strong>
+       none
+      </li>
+      <li>
+       <strong>
+        Immunities:
+       </strong>
+       none
+      </li>
+      <li>
+       <strong>
+        Senses:
+       </strong>
+       passive perception 12, Passive Perception: 11
+      </li>
+      <li>
+       <strong>
+        Languages:
+       </strong>
+       common, elvish
+      </li>
+     </ul>
+    </div>
+   </div>
+   <div class="character-info">
+    <a href="img/sendri_meaz.jpg">
+     <img alt="sendri_meaz-image" class="character-img" src="img/sendri_meaz.jpg"/>
+    </a>
+   </div>
+  </div>
+  <hr/>
+  <!-- Section for attributes -->
+  <div class="dnd-table">
+   <h3>
+    Attributes
+   </h3>
+   <table>
+    <tr>
+     <th class="title">
+      Ability
+     </th>
+     <th class="title">
+      Score
+     </th>
+     <th class="title">
+      Proficient
+     </th>
+     <th class="title">
+      Modifier
+     </th>
+    </tr>
+    <tr>
+     <td>
+      Strength
+     </td>
+     <td>
+      10
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +0
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Dexterity
+     </td>
+     <td>
+      14
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +2
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Constitution
+     </td>
+     <td>
+      12
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +1
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Intelligence
+     </td>
+     <td>
+      16
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +3
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Wisdom
+     </td>
+     <td>
+      13
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +1
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Charisma
+     </td>
+     <td>
+      15
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +2
+     </td>
+    </tr>
+   </table>
+  </div>
+  <hr/>
+  <!-- Section for skills and spells -->
+  <div class="dnd-table">
+   <h3>
+    Skills
+   </h3>
+   <table>
+    <thead>
+     <tr>
+      <th class="title">
+       Skill
+      </th>
+      <th class="title">
+       Proficient
+      </th>
+      <th class="title">
+       Modifier
+      </th>
+     </tr>
+    </thead>
+    <tbody>
+     <tr>
+      <td>
+       Acrobatics (Dex)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +2
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Animal Handling (Wis)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +1
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Arcana (Int)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +3
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Athletics (Str)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +0
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Deception (Cha)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +2
+      </td>
+     </tr>
+     <tr>
+      <td>
+       History (Int)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +3
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Insight (Wis)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +1
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Intimidation (Cha)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +2
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Investigation (Int)
+      </td>
+      <td class="proficient">
+       <i class="fas fa-check">
+       </i>
+      </td>
+      <td class="ability-modifier">
+       +6
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Medicine (Wis)
+      </td>
+      <td class="proficient">
+       <i class="fas fa-check">
+       </i>
+      </td>
+      <td class="ability-modifier">
+       +4
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Nature (Int)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +3
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Perception (Wis)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +1
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Performance (Cha)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +2
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Persuasion (Cha)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +2
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Religion (Int)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +3
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Sleight of Hand (Dex)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +2
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Stealth (Dex)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +2
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Survival (Wis)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +1
+      </td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <hr/>
+  <!-- Section for abilities -->
+  <div class="dnd-list">
+   <h3>
+    Abilities, Spells, and Actions
+   </h3>
+   <ul>
+    <li>
+     <strong>
+      alchemical mastery, potion expertise:
+     </strong>
+     [alchemical mastery, potion expertise description]
+    </li>
+   </ul>
+  </div>
+  <hr/>
+  <!-- Section for equipment -->
+  <div class="dnd-list">
+   <h3>
+    Equipment
+   </h3>
+   <ul>
+    <li>
+     <strong>
+      alchemist's tools, collection of rare herbs and ingredients, alchemical supplies, and a personal journal:
+     </strong>
+     [alchemist's tools, collection of rare herbs and ingredients, alchemical supplies, and a personal journal description]
+    </li>
+   </ul>
+  </div>
+  <hr/>
+  <!-- Section for background information and notes -->
+  <div class="dnd-info">
+   <h3>
+    Background Information
+   </h3>
+   <p class="first-paragraph">
+    Sendri Meaz is Decan Maez's beloved wife and a skilled alchemist. Together with Decan, she adds a touch of enchantment and mystique to their healing endeavors. Within their shared residence, Sendri's expertise in alchemy enhances their joint efforts. Sendri and Decan collaborate in their alchemical laboratory, where they concoct unique potions and remedies that surpass conventional treatments. Through their combined knowledge and skills, they strive to push the boundaries of healing and offer innovative solutions to their patients. Sendri's alchemical expertise and experimental nature bring an element of wonder and discovery to their healing practices. Her contributions and passion for the craft help create a sanctuary of healing within their home. Sendri's deep understanding of rare herbs and ingredients, as well as her proficiency with alchemical tools, allows her to craft potent potions and elixirs that aid in the healing process. Her meticulous record-keeping in her personal journal ensures that their work is grounded in careful observation and documentation. Sendri's presence brings a sense of unity and partnership to the Meaz family's legacy of healing in
+    <a href="../../locations/towns/Dessaquest/Dessaquest.html">
+     Dessaquest
+    </a>
+    . Her unwavering support for Decan's medical practice and her own alchemical contributions have earned her the respect and admiration of the townsfolk. Patients find comfort in the knowledge that their healing is entrusted to a dedicated duo who complement each other's skills and expertise. Beyond her alchemical pursuits, Sendri is a compassionate and caring individual. She embodies the essence of a healer not only through her scientific endeavors but also through her empathetic nature. Patients find solace and understanding in her presence, knowing that she genuinely cares about their well-being and is dedicated to their recovery. Sendri's commitment to the craft of alchemy extends beyond her collaboration with Decan. She actively seeks to expand her knowledge and explore new realms of alchemical understanding. Her insatiable curiosity drives her to uncover hidden secrets and harness the power of nature's elements in her concoctions. In the town of
+    <a href="../../locations/towns/Dessaquest/Dessaquest.html">
+     Dessaquest</a>, Sendri is known as a skilled alchemist whose work transcends the boundaries of traditional medicine. Her unique potions and remedies have garnered attention and praise from both patients and fellow practitioners. Through her collaboration with Decan and her individual contributions, Sendri plays a vital role in the Meaz family's mission of healing and offers a touch of enchantment and mystique to their shared endeavors.
+   </p>
+  </div>
+  <hr/>
+  <div class="dnd-info">
+   <h3>
+    Notes
+   </h3>
+   <p class="first-paragraph">
+    Sendri Meaz is a skilled alchemist who collaborates with her husband,
+    <a href="decan_meaz.html">
+     decan meaz</a>, in their shared residence. Her expertise in alchemy enhances their joint healing endeavors, as they create unique potions and remedies that surpass conventional treatments. Sendri's experimental nature and deep understanding of rare herbs and ingredients contribute to their innovative healing practices. Patients appreciate her compassionate and empathetic approach to their care. Beyond her alchemical pursuits, Sendri actively seeks to expand her knowledge and explore new realms of alchemical understanding. She is known for her unique potions and remedies, which have gained recognition in
+    <a href="../../locations/towns/Dessaquest/Dessaquest.html">
+     Dessaquest
+    </a>
+    .
+   </p>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,36 @@
+name: Run Script
+
+on:
+  push:
+    branches:
+      - main  # Default branch
+    paths:
+    - 'templates/img/**'
+    - 'campaign/characters/**'
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set Up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14  # The desired Node.js version
+
+      - name: Run Script
+        run: |
+          node scripts/update_readmes.js
+          
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'Antonius Torode'
+          git config --global user.email 'torodean@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}
+          git checkout "${GITHUB_REF:11}"
+          git add -A
+          git commit -m "Automated README update"
+          git push

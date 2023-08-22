@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   silas shadowvale
+  </title>
+  <link href="../../../css/mmorpdnd.css" rel="stylesheet"/>
+  <!-- JavaScript to handle navigation buttons -->
+  <script crossorigin="anonymous" src="https://kit.fontawesome.com/f3aa8d5630.js">
+  </script>
+  <script>
+   function goBack() {
+        window.history.back();
+      }
+
+      function goForward() {
+        window.history.forward();
+      }
+
+      function goToIndex() {
+        window.location.href = "./index.html";
+      }
+  </script>
+ </head>
+ <body>
+  <div class="navigation">
+   <a href="#" onclick="history.back(); return false;">
+    <i class="fas fa-arrow-left">
+    </i>
+    Back
+   </a>
+   <a href="./index.html">
+    <i class="fas fa-home">
+    </i>
+    Home
+   </a>
+   <a href="../index.html">
+    <i class="fas fa-level-up-alt">
+    </i>
+    Up
+   </a>
+   <a href="#" onclick="history.forward(); return false;">
+    <i class="fas fa-arrow-right">
+    </i>
+    Forward
+   </a>
+  </div>
+  <!-- Top section for character information -->
+  <div class="container">
+   <div>
+    <div class="character-info">
+     <h2>
+      Silas Shadowvale
+     </h2>
+     <p>
+      <i>
+       medium humanoid, lawful neutral
+      </i>
+     </p>
+     <p>
+      Level: 10
+     </p>
+     <p>
+      Race: human
+     </p>
+     <p>
+      Class: sorcerer (shadow magic)
+     </p>
+     <p>
+      Background: hermit
+     </p>
+    </div>
+    <hr/>
+    <!-- Section for Misc Stats -->
+    <div class="dnd-list">
+     <h3>
+      Miscillaneous Stats
+     </h3>
+     <ul>
+      <li>
+       <strong>
+        Armor Class:
+       </strong>
+       16 (mage armor)
+      </li>
+      <li>
+       <strong>
+        Hit Points:
+       </strong>
+       85
+      </li>
+      <li>
+       <strong>
+        Speed:
+       </strong>
+       30 ft.
+      </li>
+      <li>
+       <strong>
+        Resistances:
+       </strong>
+       none
+      </li>
+      <li>
+       <strong>
+        Immunities:
+       </strong>
+       none
+      </li>
+      <li>
+       <strong>
+        Senses:
+       </strong>
+       darkvision 60 ft., passive perception 14, Passive Perception: 12
+      </li>
+      <li>
+       <strong>
+        Languages:
+       </strong>
+       common, draconic
+      </li>
+     </ul>
+    </div>
+   </div>
+   <div class="character-info">
+    <a href="img/silas_shadowvale.jpg">
+     <img alt="silas_shadowvale-image" class="character-img" src="img/silas_shadowvale.jpg"/>
+    </a>
+   </div>
+  </div>
+  <hr/>
+  <!-- Section for attributes -->
+  <div class="dnd-table">
+   <h3>
+    Attributes
+   </h3>
+   <table>
+    <tr>
+     <th class="title">
+      Ability
+     </th>
+     <th class="title">
+      Score
+     </th>
+     <th class="title">
+      Proficient
+     </th>
+     <th class="title">
+      Modifier
+     </th>
+    </tr>
+    <tr>
+     <td>
+      Strength
+     </td>
+     <td>
+      12
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +1
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Dexterity
+     </td>
+     <td>
+      14
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +2
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Constitution
+     </td>
+     <td>
+      16
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +3
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Intelligence
+     </td>
+     <td>
+      12
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +1
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Wisdom
+     </td>
+     <td>
+      14
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +2
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Charisma
+     </td>
+     <td>
+      18
+     </td>
+     <td>
+      -
+     </td>
+     <td class="ability-modifier">
+      +4
+     </td>
+    </tr>
+   </table>
+  </div>
+  <hr/>
+  <!-- Section for skills and spells -->
+  <div class="dnd-table">
+   <h3>
+    Skills
+   </h3>
+   <table>
+    <thead>
+     <tr>
+      <th class="title">
+       Skill
+      </th>
+      <th class="title">
+       Proficient
+      </th>
+      <th class="title">
+       Modifier
+      </th>
+     </tr>
+    </thead>
+    <tbody>
+     <tr>
+      <td>
+       Acrobatics (Dex)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +2
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Animal Handling (Wis)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +2
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Arcana (Int)
+      </td>
+      <td class="proficient">
+       <i class="fas fa-check">
+       </i>
+      </td>
+      <td class="ability-modifier">
+       +5
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Athletics (Str)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +1
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Deception (Cha)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +4
+      </td>
+     </tr>
+     <tr>
+      <td>
+       History (Int)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +1
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Insight (Wis)
+      </td>
+      <td class="proficient">
+       <i class="fas fa-check">
+       </i>
+      </td>
+      <td class="ability-modifier">
+       +6
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Intimidation (Cha)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +4
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Investigation (Int)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +1
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Medicine (Wis)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +2
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Nature (Int)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +1
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Perception (Wis)
+      </td>
+      <td class="proficient">
+       <i class="fas fa-check">
+       </i>
+      </td>
+      <td class="ability-modifier">
+       +6
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Performance (Cha)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +4
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Persuasion (Cha)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +4
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Religion (Int)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +1
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Sleight of Hand (Dex)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +2
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Stealth (Dex)
+      </td>
+      <td class="proficient">
+       <i class="fas fa-check">
+       </i>
+      </td>
+      <td class="ability-modifier">
+       +6
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Survival (Wis)
+      </td>
+      <td class="proficient">
+       -
+      </td>
+      <td class="ability-modifier">
+       +2
+      </td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <hr/>
+  <!-- Section for abilities -->
+  <div class="dnd-list">
+   <h3>
+    Abilities, Spells, and Actions
+   </h3>
+   <ul>
+    <li>
+     <strong>
+      shortsword:
+     </strong>
+     [shortsword description]
+    </li>
+    <li>
+     <strong>
+      dagger:
+     </strong>
+     [dagger description]
+    </li>
+    <li>
+     <strong>
+      spellcasting (hounds of ill omen, shadow sorcery, telepathic communication):
+     </strong>
+     [spellcasting (hounds of ill omen, shadow sorcery, telepathic communication) description]
+    </li>
+   </ul>
+  </div>
+  <hr/>
+  <!-- Section for equipment -->
+  <div class="dnd-list">
+   <h3>
+    Equipment
+   </h3>
+   <ul>
+    <li>
+     <strong>
+      shortsword:
+     </strong>
+     [shortsword description]
+    </li>
+    <li>
+     <strong>
+      dagger:
+     </strong>
+     [dagger description]
+    </li>
+    <li>
+     <strong>
+      mage armor:
+     </strong>
+     [mage armor description]
+    </li>
+    <li>
+     <strong>
+      explorer's pack:
+     </strong>
+     [explorer's pack description]
+    </li>
+   </ul>
+  </div>
+  <hr/>
+  <!-- Section for background information and notes -->
+  <div class="dnd-info">
+   <h3>
+    Background Information
+   </h3>
+   <p class="first-paragraph">
+    Silas Shadowvale, a mysterious and enigmatic figure, is a human sorcerer who found his calling within the ranks of the Wandering
+    <a href="../../lore/guilds/Wanderers_Guild.html">
+     Wanderers Guild
+    </a>
+    . Possessing a deep affinity for shadow magic, Silas weaves his spells with an uncanny darkness that both fascinates and unnerves those around him. His ability to tap into the secrets of the shadow realm allows him to offer telepathic communication and share information with an air of secrecy and mystique. With his brooding presence and unpredictable powers, Silas delves into the forgotten knowledge of ancient civilizations, unearthing arcane truths and unlocking the veiled potential within the realms he traverses.
+   </p>
+  </div>
+  <hr/>
+  <div class="dnd-info">
+   <h3>
+    Notes
+   </h3>
+   <p class="first-paragraph">
+    No notes needed for Silas Shadowvale.
+   </p>
+  </div>
+ </body>
+</html>

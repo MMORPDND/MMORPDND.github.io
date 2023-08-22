@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Playlist</title>
+	<trackList>
+		<track>
+			<location>file:///home/awtorode/git/DnD/music/Azure_Span__Music_&amp;_Snow_Ambience__World_of_Warcraft_Dragonflight_(Winter_Veil_Edition).mp3</location>
+			<duration>3629753</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/awtorode/git/DnD/music/The_Lord_of_the_Rings_Eastfarthing_Woods_Ambience_&amp;_Music.mp3</location>
+			<duration>22085929</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/awtorode/git/DnD/music/Skyrim__Riverwood_Ambiance_(music,_blacksmith,_wind,_river,_live_wallpaper).mp3</location>
+			<duration>6102461</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/awtorode/git/DnD/music/Vanilla_Zul&#39;Gurub__Music_&amp;_Ambience_(1_hour,_4K,_World_of_Warcraft_Classic).mp3</location>
+			<duration>7200156</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/awtorode/git/DnD/music/Skyrim__Music_&amp;_Ambience__Day.mp3</location>
+			<duration>3600697</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/awtorode/git/DnD/music/PIRATE_VILLAGE_AMBIENCE__Pirate_Music,_Tavern_music,_Ocean.mp3</location>
+			<duration>34207059</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/awtorode/git/DnD/music/Oblivion__Music_&amp;_Ambience__Towns.mp3</location>
+			<duration>7200156</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/awtorode/git/DnD/music/Boralus__Music_&amp;_Ambience__World_of_Warcraft.mp3</location>
+			<duration>3600218</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/awtorode/git/DnD/music/Vanilla_Stranglethorn_Vale__Music_&amp;_Ambience_(3_hours,_World_of_Warcraft_Classic).mp3</location>
+			<duration>21600104</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+		<vlc:item tid="4"/>
+		<vlc:item tid="5"/>
+		<vlc:item tid="6"/>
+		<vlc:item tid="7"/>
+		<vlc:item tid="8"/>
+	</extension>
+</playlist>
