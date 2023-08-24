@@ -1,1 +1,0 @@
-This folder is for player specific information that only pertains to the party playing the current campaign.
