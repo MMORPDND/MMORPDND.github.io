@@ -1,44 +1,10 @@
-# [MMORPDND]
+# dndworld.github.io
+Open Source DND Universe.
 
-This application and software squite is designed for storage of DnD information with capabilities for automatic linking and organization.
+## Project Description.
 
-## Table of Contents
+This project is a solar system that is created to be a collaborative dnd universe for players to take control of part of it and continually add to the lore. Similarly, players can use parts that have already be created and added to for use with their own lore and creations. This making it almost a massively multiplayer online role playing dungeons and dragon (MMORPDND).
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
+## Scripts and their explanations.
 
-## Installation
-
-Note: These installation instructions are for Linux based operating systems.
-
-- Clone the git repo.
-- Run the setup.sh script (sudo required for installations)
-    - The `chmod a+x setup.sh` command makes the script executable, and `./setup.sh` runs the script.
-- Run the desired application or sub-program.
-    - The `chmod a+x app.py` command makes the script executable, and `./app.py` or `python3 app.py` runs the script.
-
-## Usage
-
-The `chmod a+x app.py` command makes an app executable. The apps can then either be ran via `./app.py` or `python3 app.py`.
-
-## Features
-
-- mmorpdnd.py
-- templates/creator.py
-- templates/check_link_validity.py
-
-
-## Contributing
-
-TODO - [Instructions on how to contribute to the project, including guidelines for submitting bug reports or feature requests]
-
-## License
-
-TODO - [Information about the license under which the application is released, along with any relevant disclaimers or warranties] 
-
-## Contact
-
-TODO - [Optionally include contact information for the maintainer(s) of the project]
+commitAll.sh: This script is used to quickly commit all available git changes.

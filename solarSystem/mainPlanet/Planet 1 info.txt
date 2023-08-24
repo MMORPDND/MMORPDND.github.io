@@ -1,0 +1,6 @@
+Planet Name:
+Surface percentage water:
+Orbital year:
+Radius:
+Mass:
+Density:
