@@ -1,4 +1,4 @@
-git submodule update --recursive --remote
+git submodule update --init --recursive --remote
 git pull && git submodule foreach git pull origin main
 cd database
 git pull origin main
