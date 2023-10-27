@@ -1,4 +1,6 @@
 # mmorpdnd.github.io
+# WARNING: If you are my DnD players, leave this repository now!
+
 Open Source DND Universe.
 
 ## Project Description.
