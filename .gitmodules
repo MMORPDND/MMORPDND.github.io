@@ -1,3 +1,4 @@
 [submodule "database"]
 	path = database
 	url = git@github.com:torodean/DnD.git
+	branch = automated-updates
