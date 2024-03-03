@@ -1,7 +1,7 @@
 git submodule update --init --recursive --remote
-git pull && git submodule foreach git pull origin main
+git pull && git submodule foreach git pull origin automated-updates
 cd database
-git pull origin main
+git pull origin automated-updates
 cd ..
 git add database
 git commit -m "Updating submodule to latest commit"
