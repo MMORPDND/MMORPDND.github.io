@@ -14,17 +14,23 @@ jobs:
       uses: actions/checkout@v2
       with:
         submodules: true
+        fetch-depth: 0  # Ensure we fetch all commits
 
     - name: Set up environment
       run: chmod a+x updateSubmodules.sh
 
     - name: Update submodules
       run: |
+        echo "Synchronizing submodule configuration..."
+        git submodule sync
+        echo "Updating submodules..."
         git submodule update --init --recursive --remote
-        git pull && git submodule foreach git pull origin automated-updates
-        cd database
-        git pull origin automated-updates
-        cd ..
+        
+        echo "Pulling latest changes for main repository..."
+        git pull origin main
+        
+        echo "Checking out and pulling latest changes for submodules..."
+        git submodule foreach 'git fetch --all && git checkout automated-updates && git pull origin automated-updates'
 
     - name: Commit and Push Changes
       run: |
