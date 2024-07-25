@@ -22,3 +22,14 @@ jobs:
       run: ./updateSubmodules.sh
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name 'Antonius Torode'
+        git config --global user.email 'torodean@users.noreply.github.com'
+        git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}
+        git add -A
+        git commit -m "Automatic Submodule update."
+        git push origin main
+      env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
