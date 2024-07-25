@@ -16,9 +16,9 @@ jobs:
         submodules: true
 
     - name: Set up environment
-      run: chmod a+x update_submodules.sh
+      run: chmod a+x updateSubmodules.sh
 
     - name: Update submodules
-      run: ./update_submodules.sh
+      run: ./updateSubmodules.sh
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
