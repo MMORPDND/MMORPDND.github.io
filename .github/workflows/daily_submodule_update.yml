@@ -19,7 +19,12 @@ jobs:
       run: chmod a+x updateSubmodules.sh
 
     - name: Update submodules
-      run: ./updateSubmodules.sh
+      run: |
+        git submodule update --init --recursive --remote
+        git pull && git submodule foreach git pull origin automated-updates
+        cd database
+        git pull origin automated-updates
+        cd ..
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
