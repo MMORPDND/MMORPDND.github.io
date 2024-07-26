@@ -16,9 +16,6 @@ jobs:
         submodules: true
         fetch-depth: 0  # Ensure we fetch all commits
 
-    - name: Set up environment
-      run: chmod a+x updateSubmodules.sh
-
     - name: Update submodules
       run: |
         echo "Synchronizing submodule configuration..."
